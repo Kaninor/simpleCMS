@@ -8,5 +8,8 @@ $("#search-btn").on("click", function () {
         success: function() {
             window.location.reload();
         },
+        error: function(xhr,status,error) {
+            console.log(`${status} ${error}`);
+        }
     });
 });
