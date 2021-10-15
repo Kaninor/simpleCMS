@@ -28,13 +28,6 @@
 
         <!-- Custom scripts for all pages-->
         <script src="{{ asset("js/sb.js") }}"></script>
-
-        <!-- Page level plugins -->
-        <script src="{{ asset("js/chart.js") }}"></script>
-
-        <!-- Page level custom scripts -->
-        <script src="{{ asset("js/chartaria.js") }}"></script>
-        <script src="{{ asset("js/chartpie.js") }}"></script>
         @yield('scripts')
     </body>
 </html>

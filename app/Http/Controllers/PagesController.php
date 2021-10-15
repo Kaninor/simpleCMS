@@ -22,6 +22,21 @@ class PagesController extends Controller
         return view("cms.register");
     }
 
+    public function forgetPassword()
+    {
+        return view("cms.forgot-password");
+    }
+
+    public function notFound()
+    {
+        return view("cms.404");
+    }
+
+    public function blank()
+    {
+        return view("cms.blank");
+    }
+
     public function newCar(Request $request)
     {
 

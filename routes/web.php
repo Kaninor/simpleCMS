@@ -17,6 +17,9 @@ use App\Http\Controllers\PagesController;
 Route::get("/", [PagesController::class, 'home']);
 Route::get("/login", [PagesController::class, 'login']);
 Route::get("/register", [PagesController::class, 'register']);
+Route::get("/forgotpassword", [PagesController::class, 'forgetPassword']);
+Route::get("/404", [PagesController::class, 'notFound']);
+Route::get("/blank", [PagesController::class, 'blank']);
 
 Route::get("/cars/{id}", [PagesController::class, 'car']);
 Route::post("/cars", [PagesController::class, 'newCar']);
