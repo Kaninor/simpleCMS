@@ -28,6 +28,7 @@
 
         <!-- Custom scripts for all pages-->
         <script src="{{ asset("js/sb.js") }}"></script>
+        <script src="{{ asset("js/searchbtn.js") }}"></script>
         @yield('scripts')
     </body>
 </html>

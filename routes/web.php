@@ -20,6 +20,7 @@ Route::get("/register", [PagesController::class, 'register']);
 Route::get("/forgotpassword", [PagesController::class, 'forgetPassword']);
 Route::get("/404", [PagesController::class, 'notFound']);
 Route::get("/blank", [PagesController::class, 'blank']);
+Route::get("/tables", [PagesController::class, 'tables']);
 
 Route::get("/cars/{id}", [PagesController::class, 'car']);
 Route::post("/cars", [PagesController::class, 'newCar']);

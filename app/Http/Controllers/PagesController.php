@@ -37,6 +37,11 @@ class PagesController extends Controller
         return view("cms.blank");
     }
 
+    public function tables()
+    {
+        return view("cms.tables");
+    }
+
     public function newCar(Request $request)
     {
 
