@@ -12,6 +12,11 @@ class PagesController extends Controller
         return view("cms.index");
     }
 
+    public function welcome()
+    {
+        return view("welcome");
+    }
+
     public function login()
     {
         return view("cms.login");
@@ -25,6 +30,11 @@ class PagesController extends Controller
     public function forgetPassword()
     {
         return view("cms.forgot-password");
+    }
+
+    public function charts()
+    {
+        return view("cms.charts");
     }
 
     public function notFound()
