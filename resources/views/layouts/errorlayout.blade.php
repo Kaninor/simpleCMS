@@ -1,36 +1,27 @@
 @extends("layouts.general")
 
 @section("head")
-    <title>Kaninor - 404</title>
+    @yield("title")
 @stop
 
 @section("body")
     <!-- Page Wrapper -->
     <div id="wrapper">
-
-        <!-- Sidebar -->
-        @include("components.navbar")
-        <!-- End of Sidebar -->
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
             <!-- Main Content -->
             <div id="content">
 
-                <!-- Topbar -->
-                @include("components.navbarH")
-                <!-- End of Topbar -->
-
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <!-- 404 Error Text -->
                     <div class="text-center">
-                        <div class="error mx-auto" data-text="404">404</div>
-                        <p class="lead text-gray-800 mb-5">Page Not Found</p>
-                        <p class="text-gray-500 mb-0">It looks like you found a glitch in the matrix...</p>
-                        <a href="/">&larr; Back to Dashboard</a>
+                        <div class="error mx-auto" data-text="404">@yield("error")</div>
+                        <div style="margin-top: 10px">
+                            <a href="/">&larr; Back to Dashboard</a>
+                        </div>
                     </div>
 
                 </div>
@@ -62,7 +53,7 @@
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -74,7 +65,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.blade.php">Logout</a>
+                    <a class="btn btn-primary" href="../cms/login.blade.php">Logout</a>
                 </div>
             </div>
         </div>
