@@ -1,7 +1,7 @@
 @extends("layouts.general")
 
 @section("head")
-    <title>SB Admin 2 - 404</title>
+    <title>Kaninor - 404</title>
 @stop
 
 @section("body")

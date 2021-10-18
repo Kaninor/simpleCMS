@@ -51,14 +51,4 @@ class PagesController extends Controller
     {
         return view("cms.tables");
     }
-
-    public function newCar(Request $request)
-    {
-
-    }
-
-    public function car(int $id)
-    {
-        return $id;
-    }
 }

@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("head")
-    <title>SB Admin 2 - Charts</title>
+    <title>Kaninor - Charts</title>
 @stop
 
 @section("body")

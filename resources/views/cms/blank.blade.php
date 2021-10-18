@@ -1,7 +1,7 @@
 @extends("layouts.general")
 
 @section("head")
-    <title>SB Admin 2 - Blank</title>
+    <title>Kaninor - Blank</title>
 @stop
 
 @section("body")

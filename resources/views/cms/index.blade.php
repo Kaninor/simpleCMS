@@ -1,7 +1,7 @@
 @extends("layouts.app")
 
 @section("head")
-    <title>SB Admin 2 - Dashboard</title>
+    <title>Kaninor - Dashboard</title>
 @stop
 
 @section("body")

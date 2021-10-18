@@ -1,7 +1,7 @@
 @extends("layouts.form")
 
 @section("head")
-    <title>SB Admin 2 - Forgot Password</title>
+    <title>Kaninor - Forgot Password</title>
 @stop
 
 @section("body")
