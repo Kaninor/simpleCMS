@@ -1,0 +1,20 @@
+- [ ] _**fixing a tags**_
+- [ ] _**more components**_
+- [ ] _**more layouts if needed**_
+- [ ] _**controller**_
+- [ ] _**methods**_
+- [ ] _**removing some unnecessary components**_
+- [ ] _**authentication**_
+- [ ] _**errors**_
+- [ ] _**login/register required**_
+- [ ] _**database**_
+- [ ] _**add, edit, delete**_
+- [ ] _**reports**_
+- [ ] _**filling charts with data in database**_
+- [ ] _**removing some pages from navbar**_
+- [ ] _**blank page**_
+- [ ] _**maybe more pages in navbar**_
+- [ ] _**security**_
+- [ ] _**ajax**_
+- [ ] _**complete footer with some links**_
+- [ ] _**enjoy**_ 😉

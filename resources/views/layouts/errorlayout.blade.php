@@ -18,7 +18,7 @@
 
                     <!-- 404 Error Text -->
                     <div class="text-center">
-                        <div class="error mx-auto" data-text="404">@yield("error")</div>
+                        <div class="error mx-auto" data-text="@yield("error")">@yield("error")</div>
                         <div style="margin-top: 10px">
                             <a href="/">&larr; Back to Dashboard</a>
                         </div>
