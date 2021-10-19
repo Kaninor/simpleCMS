@@ -25,7 +25,7 @@
             <div class="container-fluid">
 
                 <!-- Page Heading -->
-                <a class="h3 mb-2 text-gray-800" style="visibility: visible" href="#table-section">Table</a>
+                <a  class="h3 mb-2 text-gray-800" href="/">Dashboard</a> / <a class="h3 mb-2 text-gray-800" style="visibility: visible" href="#table-section">Table</a>
                 <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
                     For more information about DataTables, please visit the <a target="_blank"
                                                                                href="https://datatables.net">official DataTables documentation</a>.</p>

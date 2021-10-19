@@ -37,11 +37,6 @@ class PagesController extends Controller
         return view("cms.charts");
     }
 
-    public function notFound()
-    {
-        return view("errors.404");
-    }
-
     public function blank()
     {
         return view("cms.blank");
@@ -51,4 +46,9 @@ class PagesController extends Controller
     {
         return view("cms.tables");
     }
+
+//    public function tablespost(Request $request)
+//    {
+//        return $request->post("id", 2);
+//    }
 }
