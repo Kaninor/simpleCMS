@@ -55,8 +55,41 @@
     <script src="{{ asset("js/datatablesjquery.js") }}"></script>
     <script src="{{ asset("js/datatablesbootstrap.js") }}"></script>
     <script src="{{ asset("js/actions/tableActions.js") }}"></script>
+    <script>
+        $("#update").on("click", function () {
+           location.reload();
+        }).on("mouseenter", function (){
+            $("#update").css({
+               "color": "#4e73df"
+            });
+        }).on("mouseleave", function (){
+            $("#update").css({
+                "color": "gray"
+            });
+        });
+
+        $("#add").on("click", function () {
+            location.href = "/blank";
+        }).on("mouseenter", function (){
+            $("#add").css({
+                "color": "#4e73df"
+            });
+        }).on("mouseleave", function (){
+            $("#add").css({
+                "color": "gray"
+            });
+        });
+
+        $("#report").on("click", function () {
+            location.href = "/40432424";
+        }).on("mouseenter", function (){
+            $("#report").css({
+                "color": "#4e73df"
+            });
+        }).on("mouseleave", function (){
+            $("#report").css({
+                "color": "gray"
+            });
+        });
+    </script>
 @stop
-
-    <!-- Page level plugins -->
-
-    <!-- Page level custom scripts -->

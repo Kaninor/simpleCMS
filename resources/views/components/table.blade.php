@@ -48,7 +48,7 @@
             <td>7</td>
             <td>
                 <button type="button" class="btn btn-teal btn-rounded btn-sm m-0 btn-success tabbtn2 increament" title="increament the num-o-p of this row">+</button>
-                <button type="button" class="btn btn-teal btn-rounded btn-sm m-0 btn-warning tabbtn2 decreament" title="decreament the num-o-p of this row">-</button>
+                <button type="button" class="btn btn-teal btn-rounded btn-sm m-0 btn-warning tabbtn2 decreament" title="decreament the num-o-p of this row" style="color: black">-</button>
                 <button type="button" class="btn btn-teal btn-rounded btn-sm m-0 btn-info tabbtn edit" title="Edit this row">
                     <i class="fas fa-pencil-alt"></i>
                 </button>

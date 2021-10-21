@@ -25,3 +25,10 @@ $(".delete").on("click", function () {
        currentRow.remove();
    }
 });
+
+$(".increament").on("click", function () {
+    let currentRow = $(this).closest("tr");
+    let num_o_p = currentRow.find("td:eq(2)");
+    let num = parseInt(num_o_p.text());
+    num_o_p.text(++num);
+});
