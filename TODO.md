@@ -13,6 +13,7 @@
 - [ ] _**filling charts with data in database**_
 - [x] _**removing some pages from navbar**_
 - [ ] _**blank page**_
+- [ ] _**better icons for increment & decrement actions in table**_
 - [ ] _**maybe more pages in navbar**_
 - [ ] _**security**_
 - [ ] _**ajax**_
