@@ -1,4 +1,4 @@
-- [ ] _**fixing a tags**_
+- [ ] _**fixing tags**_
 - [ ] _**more components**_
 - [ ] _**more layouts if needed**_
 - [ ] _**controller**_
@@ -11,7 +11,7 @@
 - [ ] _**add, edit, delete**_
 - [ ] _**reports**_
 - [ ] _**filling charts with data in database**_
-- [ ] _**removing some pages from navbar**_
+- [x] _**removing some pages from navbar**_
 - [ ] _**blank page**_
 - [ ] _**maybe more pages in navbar**_
 - [ ] _**security**_
