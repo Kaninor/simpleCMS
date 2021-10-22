@@ -9,12 +9,13 @@
                 <path d="M4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z" />
             </svg>
         </th>
-        <th>P-Name</th>
-        <th>Price</th>
-        <th>Num-O-P</th>
-        <th>Created at</th>
-        <th>Updated at</th>
-        <th>P-Id</th>
+        <th>id</th>
+        <th>Solds</th>
+        <th>Boughts</th>
+        <th>Sale</th>
+        <th>Buy</th>
+        <th>profit</th>
+        <th>Loss</th>
         <th>Actions</th>
     </tr>
     </thead>
@@ -27,29 +28,30 @@
                 <path d="M4.5 2.5a.5.5 0 0 0-1 0v9.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L4.5 12.293V2.5z" />
             </svg>
         </th>
-        <th>P-Name</th>
-        <th>Price</th>
-        <th>Num-O-P</th>
-        <th>Created at</th>
-        <th>Updated at</th>
-        <th>P-Id</th>
+        <th>id</th>
+        <th>Solds</th>
+        <th>Boughts</th>
+        <th>Sale</th>
+        <th>Buy</th>
+        <th>Profit</th>
+        <th>Loss</th>
         <th>Actions</th>
     </tr>
     </tfoot>
     <tbody>
-    @foreach($products as $product)
+    @foreach($reports as $report)
         <tr class="tr">
             <th><?= ++$i; ?></th>
-            <td>{{ $product->p_name }}</td>
-            <td>{{ $product->price }}</td>
-            <td>{{ $product->num_o_p }}</td>
-            <td>{{ $product->created_at }}</td>
-            <td>{{ $product->updated_at }}</td>
-            <td>{{ $product->id }}</td>
+            <td>{{ $report->id }}</td>
+            <td>{{ $report->solds }}</td>
+            <td>{{ $report->boughts }}</td>
+            <td>{{ $report->sale }}$</td>
+            <td>{{ $report->buy }}$</td>
+            <td>{{ $report->profit }}%</td>
+            <td>{{ $report->loss }}%</td>
             <td style="cursor: default; -webkit-user-select: none">
-                <i class="fa fa-plus increament mr-1" aria-hidden="true" title="increament the num-o-p of this row" style="cursor: pointer"></i>
-                <i class="fa fa-minus decreament mr-1" aria-hidden="true" title="decreament the num-o-p of this row" style="cursor: pointer"></i>
-                <i class="fas fa-pencil-alt edit mr-1" title="Edit this row" style="cursor: pointer"></i>
+                <i class="fas fa-print mr-2 print-act" style="cursor: pointer"></i>
+                <i class="fas fa-eye mr-2 view-act" style="cursor: pointer"></i>
                 <i class="fas fa-trash-alt delete" title="Delete this row" style="cursor: pointer"></i>
             </td>
         </tr>

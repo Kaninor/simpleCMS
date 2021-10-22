@@ -39,16 +39,13 @@ class PagesController extends Controller
 
     public function blank()
     {
-        return view("cms.blank");
+        $reports = DB::table("reports")->orderBy("id", "DESC")->get();
+        return view("cms.blank", compact(["reports"]));
     }
 
     public function tables()
     {
-        return view("cms.tables");
+        $products = DB::table("products")->orderBy("id", "DESC")->get();
+        return view("cms.tables", compact(["products"]));
     }
-
-//    public function tablespost(Request $request)
-//    {
-//        return $request->post("id", 2);
-//    }
 }

@@ -23,7 +23,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    @include("components.table")
+                    @include("components.reportsTable")
 
                 </div>
                 <!-- /.container-fluid -->

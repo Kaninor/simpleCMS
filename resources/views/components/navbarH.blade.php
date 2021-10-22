@@ -1,3 +1,7 @@
+<?php
+use Illuminate\Support\Facades\DB;
+$admin = DB::table("admin")->first();
+?>
 <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow mynav">
 
     <!-- Sidebar Toggle (Topbar) -->
@@ -131,7 +135,7 @@
         <li class="nav-item dropdown no-arrow">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Dariush Rouhifard</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ $admin->firstName." ".$admin->lastName }}</span>
                 <img class="img-profile rounded-circle"
                      src="{{asset("img/undraw_profile.svg")}}">
             </a>

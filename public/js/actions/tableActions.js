@@ -32,3 +32,11 @@ $(".increament").on("click", function () {
     let num = parseInt(num_o_p.text());
     num_o_p.text(++num);
 });
+
+$(".decreament").on("click", function () {
+    let currentRow = $(this).closest("tr");
+    let num_o_p = currentRow.find("td:eq(2)");
+    let num = parseInt(num_o_p.text());
+    if (num - 1 >= 0)
+        num_o_p.text(--num);
+});
