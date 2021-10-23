@@ -1,20 +1,20 @@
 - [ ] _**fixing tags**_
-- [ ] _**more components**_
+- [x] _**more components**_
 - [ ] _**more layouts if needed**_
 - [ ] _**controller**_
 - [ ] _**methods**_
-- [ ] _**removing some unnecessary components**_
+- [x] _**removing some unnecessary components**_
 - [ ] _**authentication**_
-- [ ] _**errors**_
+- [x] _**errors**_
 - [ ] _**login/register required**_
-- [ ] _**database**_
+- [x] _**database**_
 - [ ] _**add, edit, delete**_
-- [ ] _**reports**_
+- [x] _**reports**_
 - [ ] _**filling charts with data in database**_
 - [x] _**removing some pages from navbar**_
-- [ ] _**blank page**_
-- [ ] _**better icons for increment & decrement actions in table**_
-- [ ] _**maybe more pages in navbar**_
+- [x] _**blank page**_
+- [x] _**better icons for increment & decrement actions in table**_
+- [x] _**maybe more pages in navbar**_
 - [ ] _**security**_
 - [ ] _**ajax**_
 - [ ] _**complete footer with some links**_
