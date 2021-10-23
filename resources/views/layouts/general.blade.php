@@ -16,6 +16,26 @@
     <!-- Custom styles for this template-->
     <link href="{{ asset("css/new.css") }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset("css/custom/app.css") }}">
+    <style>
+        .animated.rotation:hover {
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            animation-name: rotation;
+            transform-origin: center;
+        }
+
+        @keyframes rotation {
+            from {
+                -webkit-transform: rotate3d(0, 0, 1, 0deg);
+                transform: rotate3d(0, 0, 1, 0deg);
+            }
+
+            to {
+                -webkit-transform: rotate3d(0, 0, 1, 360deg);
+                transform: rotate3d(0, 0, 1, 345deg);
+            }
+        }
+    </style>
     @yield('head')
 </head>
 
@@ -55,6 +75,22 @@
     <!-- Custom scripts for all pages-->
     <script src="{{ asset("js/sb.js") }}"></script>
     <script src="{{ asset("js/searchbtn.js") }}"></script>
+    <script>
+        switch (window.location.href) {
+            case "http://127.0.0.1:8000/":
+                $("#dashboard").addClass("active");
+                break;
+            case "http://127.0.0.1:8000/charts":
+                $("#charts").addClass("active");
+                break;
+            case "http://127.0.0.1:8000/tables":
+                $("#tables").addClass("active");
+                break;
+            case "http://127.0.0.1:8000/blank":
+                $("#blank").addClass("active");
+                break;
+        }
+    </script>
     @yield('scripts')
 </body>
 
