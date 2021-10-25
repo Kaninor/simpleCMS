@@ -1,5 +1,7 @@
 <?php
+
 use Illuminate\Support\Facades\DB;
+
 $admin = DB::table("admin")->first();
 ?>
 <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow mynav">
@@ -14,15 +16,13 @@ $admin = DB::table("admin")->first();
 
         <!-- Nav Item - Alerts -->
         <li class="nav-item dropdown no-arrow mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
-               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-bell fa-fw"></i>
                 <!-- Counter - Alerts -->
                 <span class="badge badge-danger badge-counter">3+</span>
             </a>
             <!-- Dropdown - Alerts -->
-            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                 aria-labelledby="alertsDropdown">
+            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                 <h6 class="dropdown-header">
                     Alerts Center
                 </h6>
@@ -65,22 +65,19 @@ $admin = DB::table("admin")->first();
 
         <!-- Nav Item - Messages -->
         <li class="nav-item dropdown no-arrow mx-1">
-            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
-               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-envelope fa-fw"></i>
                 <!-- Counter - Messages -->
                 <span class="badge badge-danger badge-counter">7</span>
             </a>
             <!-- Dropdown - Messages -->
-            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                 aria-labelledby="messagesDropdown">
+            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown">
                 <h6 class="dropdown-header">
                     Message Center
                 </h6>
                 <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="dropdown-list-image mr-3">
-                        <img class="rounded-circle" src="{{ asset("img/undraw_profile_1.svg") }}"
-                             alt="...">
+                        <img class="rounded-circle" src="{{ asset("img/undraw_profile_1.svg") }}" alt="...">
                         <div class="status-indicator bg-success"></div>
                     </div>
                     <div class="font-weight-bold">
@@ -91,8 +88,7 @@ $admin = DB::table("admin")->first();
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="dropdown-list-image mr-3">
-                        <img class="rounded-circle" src="{{asset("img/undraw_profile_2.svg")}}"
-                             alt="...">
+                        <img class="rounded-circle" src="{{asset("img/undraw_profile_2.svg")}}" alt="...">
                         <div class="status-indicator"></div>
                     </div>
                     <div>
@@ -103,26 +99,13 @@ $admin = DB::table("admin")->first();
                 </a>
                 <a class="dropdown-item d-flex align-items-center" href="#">
                     <div class="dropdown-list-image mr-3">
-                        <img class="rounded-circle" src="{{asset("img/undraw_profile_3.svg")}}"
-                             alt="...">
+                        <img class="rounded-circle" src="{{asset("img/undraw_profile_3.svg")}}" alt="...">
                         <div class="status-indicator bg-warning"></div>
                     </div>
                     <div>
                         <div class="text-truncate">Last month's report looks great, I am very happy with
                             the progress so far, keep up the good work!</div>
                         <div class="small text-gray-500">Morgan Alvarez · 2d</div>
-                    </div>
-                </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                    <div class="dropdown-list-image mr-3">
-                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
-                             alt="...">
-                        <div class="status-indicator bg-success"></div>
-                    </div>
-                    <div>
-                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
-                            told me that people say this to all dogs, even if they aren't good...</div>
-                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
                     </div>
                 </a>
                 <a class="dropdown-item text-center small text-gray-500" href="#">Read More Messages</a>
@@ -133,15 +116,12 @@ $admin = DB::table("admin")->first();
 
         <!-- Nav Item - User Information -->
         <li class="nav-item dropdown no-arrow">
-            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
-               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ $admin->firstName." ".$admin->lastName }}</span>
-                <img class="img-profile rounded-circle"
-                     src="{{asset("img/undraw_profile.svg")}}">
+                <img class="img-profile rounded-circle" src="{{asset("img/undraw_profile.svg")}}">
             </a>
             <!-- Dropdown - User Information -->
-            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
-                 aria-labelledby="userDropdown">
+            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Profile
