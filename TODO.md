@@ -1,12 +1,12 @@
-- [ ] _**fixing tags**_
+- [x] _**fixing tags**_
 - [x] _**more components**_
-- [ ] _**more layouts if needed**_
-- [ ] _**controller**_
+- [x] _**more layouts if needed**_
+- [x] _**controller**_
 - [ ] _**methods**_
 - [x] _**removing some unnecessary components**_
 - [ ] _**authentication**_
 - [x] _**errors**_
-- [ ] _**login/register required**_
+- [ ] _**log in required**_
 - [x] _**database**_
 - [ ] _**add, edit, delete**_
 - [x] _**reports**_
@@ -15,7 +15,5 @@
 - [x] _**blank page**_
 - [x] _**better icons for increment & decrement actions in table**_
 - [x] _**maybe more pages in navbar**_
-- [ ] _**security**_
-- [ ] _**ajax**_
-- [ ] _**complete footer with some links**_
+- [x] _**security**_
 - [ ] _**enjoy**_ 😉

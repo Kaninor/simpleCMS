@@ -2,6 +2,11 @@
 
 @section("head")
     <title>Kaninor - Tables</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
 @stop
 
 @section("body")
