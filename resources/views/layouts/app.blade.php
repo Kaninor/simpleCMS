@@ -40,7 +40,7 @@
     @yield('head')
 </head>
 
-<body id="page-top">
+<body id="page-top" class="sb-nav-fixed">
     @yield('body')
 
     <!-- Scroll to Top Button-->
